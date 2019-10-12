@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <div class="display">
+            <input type="text" readonly size="18" id="d" value="0">
+        </div>
+        <div class="keys">
+            <p>
+                <input type="button" class="button gray" value="ON" onclick='on()'>
+                <input type="button" class="button gray" value="OFF" onclick='off()'>
+                <input type="button" class="button gray"   value="π" onclick='pi()'>
+                <input type="button" class="button pink" value="/" onclick='    v("/")'>
+            </p>
+            <p>
+                <input type="button" class="button gray" value="cos" onclick='v("cos")'>
+                <input type="button" class="button gray" value="sin" onclick='v("sin")'>
+                <input type="button" class="button gray"   value="tan" onclick='v("tan")'>
+                <input type="button" class="button pink" value="2nd" onclick='secondF()'>
+            </p>
+            <p>
+                <input type="button" class="button gray" value="EXP" onclick='exp()'>
+                <input type="button" class="button gray" value="Ln" onclick='log()'>
+                <input type="button" class="button gray"   value="xP" onclick='pow()'>
+                <input type="button" class="button pink" value="x!" onclick=''>
+            </p>
+            <p>
+                <input type="button" class="button gray" value="(" onclick='v("(")'>
+                <input type="button" class="button gray" value=")" onclick='v(")")'>
+                <input type="button" class="button gray"   value="sqrt" onclick='sqrt()'>
+                <input type="button" class="button pink" value="CE" onclick='c("0")'>
+            </p>
+            <p>
+                <input type="button" class="button black" value="7" onclick='v("7")'>
+                <input type="button" class="button black" value="8" onclick='    v("8")'>
+                <input type="button" class="button black" value="9" onclick='    v("9")'>
+                <input  type="button" class="button pink" value="*" onclick='v("*")'>
+            </p>
+            
+            <p>
+                <input type="button" class="button black" value="4" onclick='v("4")'>
+                <input type="button" class="button black" value="5" onclick='    v("5")'>
+                <input type="button" class="button black" value="6" onclick='    v("6")'>
+                <input type="button" class="button pink" value="-" onclick='v("-")'>
+            </p>
+            <p>
+                <input type="button" class="button black" value="1" onclick='v("1")'>
+                <input type="button" class="button black" value="2" onclick='    v("2")'>
+                <input type="button" class="button black" value="3" onclick='    v("3")'>
+                <input type="button" class="button pink" value="+" onclick='v("+")'>
+            </p>
+            <p>
+                <input type="button" class="button black" value="0" onclick='v("0")'>
+                <input type="button" class="button black" value="." onclick='    v(".")'>
+                <input type="button" class="button black" value="c" onclick=' CE()   '>
+                <input type="button" class="button orange" value="=" onclick='ei()'>
+            </p>
+            <p id="sly"> <center>aniki technologie</center></p>
+        </div>
+    </div>
+</body>
+</html>      
